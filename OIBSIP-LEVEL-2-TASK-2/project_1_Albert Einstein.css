@@ -1,0 +1,101 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+   margin: 20px auto;
+   width: 1000px;
+   
+}
+
+.bigcontainer{
+   background-color: #e5e5fda9;
+   min-height: 100vh;
+   border:10px solid #1d1e4c ;
+   box-shadow: 10px 80px 20px 20px rgba(1, 1, 1, 0.103);
+}
+.top_section{
+   display:flex;
+   justify-content: space-between;
+   margin-top: 100px;
+   align-items: flex-end;
+   line-height: 30px;
+}
+
+.top_section h1{
+   font-size: 40px;
+   font-weight: bold;
+   text-transform: uppercase;
+}
+.top_section h3{
+   text-align: end;
+   font-size: 25px;
+}
+.mycontent{
+   max-width: 850px;
+   margin: 0 auto;
+}
+.myimage img{
+   border-radius: 60%;
+   height: 360px;
+   overflow: hidden;
+}
+
+.about h2{
+   font-size: 60px;
+   font-weight: 350;
+   margin-bottom: 25px;
+}
+
+h4{
+   margin-left: -45px;
+}
+.about p{
+
+   font-size: 20px;
+   line-height: 30px;
+   letter-spacing: 1.1px;
+   text-align: justify;
+
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+
+h4{
+   font-size: 20px;
+}
+
+.k_writting{
+   margin-top: 50px;
+}
+.k_writting h4{
+   font-size: 35px;
+   font-weight: 400;
+   margin-bottom: 20px;
+}
+.k_writting ul{
+    margin-left: 50px;
+}
+.k_writting ul li{
+   font-size: 20px;
+   line-height: 25px;
+   text-align: justify;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.poem{
+   margin-top: 30px;
+   line-height: 30px;
+   letter-spacing: 1.1px;
+
+   margin-bottom: 20px;
+
+   border: 3px solid black;
+   padding: 30px;
+}
+
+.poem h4{
+    margin-left: 350px;
+}
